@@ -28,7 +28,7 @@ contract DenialSolution is Script {
         vm.startBroadcast(vm.envUint("PRIVATE_KEY"));
         ReenterDeny reenterDeny = new ReenterDeny(denialInstance);
         denialInstance.setWithdrawPartner(address(reenterDeny));
-        // denialInstance.withdraw();
+        denialInstance.withdraw();
         vm.stopBroadcast();
     }
 }
