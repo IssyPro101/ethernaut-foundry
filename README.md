@@ -1,4 +1,4 @@
-# Ethernaut Foundry Solutions 2023 - Israel Adelaja
+# Ethernaut Foundry Solutions - Israel Adelaja
 
 ## Installation
 1. If you haven't already, install Foundry on your machine, using the following commands:
